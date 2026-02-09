@@ -41,3 +41,28 @@ Your solution should include at least one real workflow, for example:
 - When you are complete, put up a Pull Request against this repository with your changes.
 - A short summary of your approach and tools used in your PR submission
 - Any additional information or approach that helped you.
+
+# Task Manager API
+
+A simple backend application built using a spec-driven development approach.
+The API supports creating, listing (with filtering and search), updating, and deleting tasks, with data persisted locally using SQLite.
+
+The project demonstrates:
+
+Clear API specification (SPEC.md)
+
+Clean FastAPI + SQLAlchemy architecture
+
+Automated test coverage with pytest
+
+Local development and execution
+## Tech Stack
+- Python 3.11
+- FastAPI
+- SQLite
+- SQLAlchemy
+- Pytest
+
+## Run the application
+```bash
+python -m uvicorn app.main:app --reload
